@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<canvas id='hcn.HTML' width="1000" height="1000"></canvas>
+<script>
+    class Rectangle{
+        constructor(dai, rong) {
+            this._dai = dai;
+            this._rong = rong;
+        };
+
+
+        getDai() {
+            return this._dai;
+        };
+
+        setDai(value) {
+            this._dai = value;
+        };
+
+        getRong() {
+            return this._rong;
+        };
+
+        setRong(value) {
+            this._rong = value;
+        };
+
+        dientich(dai, rong){
+            return this.getDai() * this.getRong();
+        };
+
+        chuvi(dai, rong){
+            return (this.getDai() + this.getRong()) * 2;
+        };
+
+    }
+    let a = parseInt(prompt("Nhập chiều dài"));
+    let b = parseInt(prompt("Nhập chiều rộng"));
+
+    let hcn = new Rectangle(a, b);
+    chuvi = hcn.chuvi();
+    dientich = hcn.dientich();
+    console.log("Diện tích là: " + dientich + " Chu vi là: " + chuvi);
+
+    let canvas = document.getElementById('hcn.HTML');
+     let hcnobj = canvas.getContext("2d");
+     hcnobj.rect(100, 50, a, b);
+     hcnobj.stroke();
+
+
+    // let hcnobj = new Rectangle(40, 20);
+    // let chuvi = hcnobj.chuvi();
+    // let dientich = hcnobj.dientich();
+    // console.log("Diện tích là: " + dientich + " Chu vi là: " + chuvi);
+
+
+
+    // let canvas = document.getElementById('hcn.HTML');
+    // let hcn = canvas.getContext("2d");
+    // hcn.rect(100, 50, canvas.getDai(), canvas.getRong());
+    // hcn.stroke();
+
+
+
+
+
+
+</script>
+</body>
+</html>

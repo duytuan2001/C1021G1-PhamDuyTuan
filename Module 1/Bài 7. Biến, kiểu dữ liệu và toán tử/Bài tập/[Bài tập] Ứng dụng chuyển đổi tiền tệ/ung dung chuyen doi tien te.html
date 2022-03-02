@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>title</title>
+</head>
+<body>
+<form>
+    <table style="width: 40%;text-align: left">
+        <tr>
+            <th>Amount</th>
+            <th>From Currency</th>
+            <th>To Currency</th>
+        </tr>
+        <tr>
+            <td>
+                <input type="text" id="t1">
+            </td>
+            <td>
+                <select style="width: 85%" id="a" >
+                    <option name="range" value="vnd">VND</option>
+                    <option name="range" value="usd">USD</option>
+                </select>
+            </td>
+            <td>
+                <select style="width:110px" id="b">
+                    <option name="range" value="usd">USD</option>
+                    <option name="range" value="vnd">VND</option>
+                </select>
+            </td>
+            <td>
+                <button type="button" onclick="showMessage()">covert </button>
+            </td>
+        </tr>
+    </table>
+    Result: <span id ="re"></span>
+    <script src="ads.js">
+
+    </script>
+
+</form>
+</body>
+</html>

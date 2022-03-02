@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>[Bài tập] Sinh bảng cửu chương</title>
+</head>
+<h2 style="text-align: center">Bảng Cửu Chương</h2>
+<body>
+<script>
+    mtab = "<table border='1'  width='1520' height='300' cellspacing='0' cellpadding='3'>"
+    for (let i = 2; i <= 9; i++) {
+        mtab += "<tr>";
+        for (let j = 1; j <= 9; j++) {
+            mtab =mtab+"<td>" + j + "x" + i + "=" + (i * j) +"</td>";
+        }
+        tab += mtab +"<table>";
+    }
+    document.write(mtab);
+</script>
+</body>
+</html>

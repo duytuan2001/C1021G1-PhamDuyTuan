@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a ;
+    let b  ;
+    let count = 0
+    let c ;
+    a = 1
+    b = 1
+    while (count<=10){
+        c=a+b;
+        a=b
+        b=c
+        if (c%5===0){
+            console.log(c);
+            document.write('<br>')
+            count++;
+        }
+    }
+</script>
+</body>
+</html>

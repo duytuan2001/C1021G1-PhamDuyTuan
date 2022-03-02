@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<h2>Caculator</h2>
+<body>
+<form>
+    <input type="text" id="t1">
+    <input type="text" id="t2">
+    <table style="width: 100px">
+        <tr>
+            <td id="c">
+            <td><button type="button" onclick="showMessage('add')">Addition(+)</button></td>
+            <td><button type="button" onclick="showMessage('sub')">Subtraction(-)</button></td>
+            <td><button type="button" onclick="showMessage('mul')">Multiplication(X)</button></td>
+            <td><button type="button" onclick="showMessage('div')">Division(/)</button></td>
+        </tr>
+    </table>
+    <p id ='result'></p>
+    <script>
+        function showMessage(operator){
+            let a= document.getElementById("t1").value;
+            let b= document.getElementById("t2"). value;
+            let c= document.getElementById("c"). value;
+            switch (operator) {
+                case "add":
+                    result = parseInt(a)+parseInt(b)
+                    document.getElementById("result").innerText="Result Addition:"+result
+                    break;
+                case "sub":
+                    result = parseInt(a)-parseInt(b)
+                    document.getElementById("result").innerText="Result Subtraction:"+result
+                    break;
+                case "mul":
+                    result = parseInt(a)*parseInt(b)
+                    document.getElementById("result").innerText="Result Multiplication:"+result
+                    break;
+                case "div":
+                    result = parseInt(a)/parseInt(b)
+                    document.getElementById("result").innerText="Result Division:"+result
+                    break;
+            }
+        }
+    </script>
+</form>
+</body>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // Cặp số thân thiết
+    function kiemTraSoThanThiet(a,b){
+        let sumA=0;
+        let sumB=0;
+        for (let i = 0; i <a ; i++) {
+            if  (a%i===0){
+                sumA=sumA+i;
+            }
+        }
+        for (let i = 0; i <b ; i++) {
+            if (b%i===0){
+                sumB=sumB+i
+            }
+        }
+        if (sumA===b && sumB===a){
+            return true
+        }else
+            return false
+    }
+    let input1=parseInt(prompt('Mời bạn nhâp số thứ 1 : '));
+    let input2=parseInt(prompt('Mời bạn nhâp số thứ 1 : '));
+    alert(kiemTraSoThanThiet(input1, input2));
+</script>
+</body>
+</html>

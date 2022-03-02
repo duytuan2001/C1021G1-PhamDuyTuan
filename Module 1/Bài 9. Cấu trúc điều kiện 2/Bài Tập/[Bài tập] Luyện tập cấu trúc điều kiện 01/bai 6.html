@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tính hoa hồng nhận được tuỳ theo mức doanh số bán hàng</title>
+</head>
+<body>
+                    <!--5% nếu tổng doanh số nhỏ hơn hoặc bằng 100 triệu.-->
+                    <!--10% nếu tổng doanh số nhỏ hơn hoặc bằng 300 triệu.-->
+                    <!--20 % nếu tổng doanh số là lớn hơn 300 triệu.-->
+<script>
+    let a=prompt("Mức doanh số bán hàng:(triệu)")
+    let b
+    if(a<100){
+        b=a*5/100
+        alert("Hoa hồng nhận được của 5% là:"+b+"triệu VNĐ")
+    }
+    else if(a<=300){
+        b=a*10/100
+        alert("Hoa hồng nhận được của 10% là:"+b+"triệu VNĐ")
+    }
+    else{
+        b=a*20/100
+        alert("Hoa hồng nhận được của 20% là:"+b+"triệu VNĐ")
+    }
+</script>
+</body>
+</html>

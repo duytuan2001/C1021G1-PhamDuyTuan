@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let n = parseInt(prompt("Nhập vào n số nguyên tố đầu tiên:"));
+    let status = true;
+    let num = 2;
+    let count = 1;
+    if ((n>0) && (n<=20)) {
+        document.writeln(n + " số nguyên tố đầu tiên là:");
+        while (count <= n) {
+            for (let i = 2; i <= Math.sqrt(num); i++) {
+                if (num % i == 0)
+                    status = false;
+            }
+            if (status != 0) {
+                document.writeln(num);
+                count++;
+            }
+            status = true;
+            num++;
+        }
+    }
+    else
+        document.writeln("Vui lòng nhập n bé hơn 20.");
+</script>
+</body>
+</html>

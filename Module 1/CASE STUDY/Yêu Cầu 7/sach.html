@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h3>Quản Lý Sách</h3>
+<table id="tblProduct" border="1">
+
+</table>
+<script>
+
+    // random mã số
+    function random() {
+        let str = "";
+        let num1 = Math.floor(Math.random() * 5) + 1 + "";
+        let num2 = Math.floor(Math.random() * 10) + "";
+        let num3 = Math.floor(Math.random() * 10) + "";
+        let num4 = Math.floor(Math.random() * 10) + "";
+
+        str += num1 + num2 + num3 + num4;
+        return str
+    }
+
+    let tenSach = ["Toán", "Văn", "Anh"];
+    let namSx = [2000, 1997, 1995];
+    let soQuyen = [1, 2, 0]
+    let maSoSach = [random(),random(),random()]
+
+    // kiểm tra sách
+    function checkQuantity(i) {
+        if (soQuyen[i] > 0){
+            return "true"
+        }else
+            return "fasle"
+    }
+
+    // thêm sách cũ
+    function addBook(){
+        let addname = parseInt(prompt(bookNewOld()));
+        let test;
+        let count;
+        function bookNewOld() {
+            let content = "";
+            let count = 0;
+            for (let i = 0; i < tenSach.length; i++) {
+                count = i + 1;
+                content += count + " : " + tenSach[i] + "\n";
+            }
+            return content
+        }
+
+        for (let i = 0; i < tenSach.length; i++) {
+            test = false;
+            count = 0;
+            if (parseInt(addname) - 1 === i) {
+                test = true;
+                count = i
+                break;
+            }
+        }
+        if(test){
+            let enterBook = parseInt(prompt("Nhập số lượng sách"));
+            soQuyen[count] += enterBook
+        }else
+            alert("Vui lòng nhập lại.")
+
+        loadDataProduct()
+    }
+
+    // thêm sách mới
+    function addNewBook() {
+        let addNewBook = prompt("Nhập thêm sách mới: " );
+        let addYear = prompt("Nhập thêm năm sản xuất mới: " );
+        let addQuantity = prompt("Nhập số lượng sách mới: " );
+        tenSach.push(addNewBook);
+        namSx.push(addYear);
+        soQuyen.push(parseInt(addQuantity));
+        maSoSach.push(random())
+        loadDataProduct()
+    }
+    // mượn sách
+    function borrowBook() {
+        let borrowBook = prompt("Vui lòng nhập mã số sách: ");
+        for(let i = 0; i < tenSach.length; i++){
+            if(maSoSach[i] === borrowBook){
+                if(soQuyen[i] > 0)
+                soQuyen[i] = 1;
+            }
+        }
+        loadDataProduct()
+    }
+
+
+    function loadDataProduct() {
+        let tblProductHTML = `
+            <tr>
+                <th>Mã số sách</th>
+                <th>Tên sách</th>
+                <th>Năm xuất bản</th>
+                <th>Số quyển</th>
+                <th>Tình trạng</th>
+            </tr>`;
+        for (let i = 0; i < tenSach.length; i++) {
+            tblProductHTML += `
+                    <tr>
+                        <td>${maSoSach[i]}</td>
+                        <td>${tenSach[i]}</td>
+                        <td>${namSx[i]}</td>
+                        <td>${soQuyen[i]}</td>
+                        <td>${checkQuantity(i)}</td>
+                    </tr>`
+
+        }
+        tblProductHTML +=`<tr>
+                        <td>
+                            <button type="button" value="add" onclick="addBook()">Thêm sách đã có</button>
+                        </td>
+                        <td>
+                            <button type="button" value="add" onclick="addNewBook()">Thêm sách mới</button>
+                        </td>
+                        <td>
+                            <button type="button" value="add" onclick="borrowBook() ">Mượn sách</button>
+                        </td>
+                        <td>
+                            <button type="button" value="add" onclick="addNewBook()">Hiển thị sách nhiều nhất</button>
+                        </td>
+                    </tr>`
+
+
+        document.getElementById("tblProduct").innerHTML = tblProductHTML;
+    }
+    function borrowBoob() {
+        alert("Bạn Muốn mượn sách số mấy: ")
+
+    }
+
+    loadDataProduct();
+
+
+
+
+</script>
+</body>
+</html>

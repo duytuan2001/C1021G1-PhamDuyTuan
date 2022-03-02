@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tính cước điện thoại cho một hộ gia đình với các thông số đã cho</title>
+</head>
+<body>
+                <!--Phí thuê bao bắt buộc là 25 nghìn.-->
+                <!--600 đồng cho mỗi gọi của 50 phút đầu tiên.-->
+                <!--400 đồng cho mỗi phút gọi của 150 phút tiếp theo.-->
+                <!--200 đồng cho bất kỳ mỗi phút nào sau 200 phút đầu tiên.-->
+<script>
+    let s = parseInt(prompt("Nhap số phút gọi:"))
+    const Phithuebao= 25000
+    let a = 200+150;
+    let b = 400+50;
+    let d='Giacuoc';
+    let e='tong';
+    if(s>200){
+        d = (s-200)*a*b*600;
+        e = 0.01*d + 25000;
+        alert(e +"VNĐ");
+    }
+    else if(s>50){
+        d =(s-50)*b*600;
+        e=0.01*d+25000;
+        alert(e +"VNĐ");
+    }
+    else{
+        d=s*60;
+        e=0.01*d+25000;
+        alert(e +"VNĐ");
+    }
+</script>
+</body>
+</html>

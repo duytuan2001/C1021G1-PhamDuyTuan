@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Viết chương trình tính giá điện</title>
+</head>
+
+<!--TT	    Số kWh sử dụng	        Giá bán điện (đồng/kWh)-->
+<!--Bậc 1	Cho kWh từ 0 - 50	    1.678-->
+<!--Bậc 2	Cho kWh từ 51 - 100	    1.734-->
+<!--Bậc 3	Cho kWh từ 101 - 200	2.014-->
+<!--Bậc 4	Cho kWh từ 201 - 300	2.536-->
+<!--Bậc 5	Cho kWh từ 301 - 400	2.834-->
+<!--Bậc 6	Cho kWh từ 401 trở lên	2.927-->
+
+<body>
+<script>
+    let a=prompt("Nhập số điện:(kWh)")
+    let b1=1678
+    let b2=1734
+    let b3=2014
+    let b4=2536
+    let b5=2834
+    let b6=2927
+    if(a<0){
+        alert("Vui lòng nhập lại số điện:(kWh)")
+    }
+    else if(a<=50){
+        let c=a*b1
+        alert("Bạn đã sử dụng số điện trong khoảng từ 0 - 50 kWh số tiền bạn phải trả là:"+c)
+    }
+    else if(a<=100){
+        let e=50*b1+((a-50)*b2)
+        alert("Bạn đã sử dụng số điện trong khoảng từ 51 - 100 kWh số tiền bạn phải trả là:"+e)
+    }
+    else if(a<=200){
+        let f=50*b1+(50*b2)+((a-100)*3)
+        alert("Bạn đã sử dụng số điện trong khoảng từ 101 - 200 kWh số tiền bạn phải trả là:"+f)
+    }
+    else if(a<=300){
+        let g=50*b1+(50*b2)+(100*b3)+((a-200)*b4)
+        alert("Bạn đã sử dụng số điện trong khoảng từ 201 - 300 kWh số tiền bạn phải trả là:"+g)
+    }
+    else if(a<=400){
+        let h=50*b1+(50*b2)+(100*b3)+(100*b4)+((a-400)*b5)
+        alert("Bạn đã sử dụng số điện trong khoảng từ 301 - 400 kWh số tiền bạn phải trả là:"+h)
+    }
+    else{
+        let k=50*b1+(50*b2)+(100*b3)+(100*b4)+(100*b5)+((a-400)*b6)
+        alert("Bạn đã sử dụng số điện trên 400 kWh số tiền bạn phải trả là"+k)
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,143 @@
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <title>[Thực hành] Tạo bàn cờ caro đơn giản</title>-->
+<!--</head>-->
+<!--    <h3>Caro Game Simple</h3>-->
+<!--    <p id="carogame" />-->
+<!--    <input type="button" value="Change Value" onclick="changeValue()">-->
+<!--<body>-->
+<!--<script>-->
+<!--    let b = document.getElementById("carogame");-->
+
+<!--    let board = [];-->
+<!--    let data = "";-->
+<!--    for (let i = 0; i < 5; i++) {-->
+<!--        board[i] = new Array(0, 0, 0, 0, 0);-->
+<!--    }-->
+
+<!--    for (let i = 0; i < 5; i++) {-->
+<!--        data += "<br/>";-->
+<!--        for (let j = 0; j < 5; j++) {-->
+<!--            data += board[i][j] + "&nbsp;&nbsp;";-->
+<!--        }-->
+<!--    }-->
+
+<!--    data += "<br/><br/><input type='button' value='Change Value' onclick='changeValue()'>"-->
+<!--    b.innerHTML = data;-->
+<!--</script>-->
+<!--<script>-->
+<!--    function changeValue() {-->
+<!--        let positionX = prompt("X: ");-->
+<!--        let positionY = prompt("Y: ");-->
+<!--        data = "";-->
+<!--        board[positionX][positionY] = "x";-->
+<!--        for (let i = 0; i < 5; i++) {-->
+<!--            data += "<br/>";-->
+<!--            for (let j = 0; j < 5; j++) {-->
+<!--                data += board[i][j] + "&nbsp;&nbsp;&nbsp;&nbsp;";-->
+<!--            }-->
+<!--        }-->
+<!--        data += "<br/><br/><input type='button' value='Change Value' onclick='changeValue()'>"-->
+<!--        b.innerHTML = "<hr/>" + data;-->
+<!--    }-->
+<!--</script>-->
+<!--    </body>-->
+<!--</html>-->
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p id="caro"></p>
+<button id="reset" hidden onclick="setArray(); displayBoard()">Reset</button>
+<script>
+    let board = document.getElementById("caro");
+    let arr = [];
+    let data = '';
+    let checkPlayer = true;
+
+    function setArray() {
+        for (let i = 0; i < 5; i++) {
+            arr[i] = new Array("", "", "", "", "");
+        }
+    }
+
+    function displayBoard() {
+        data = "<table border='1'> \n";
+        for (let i = 0; i < arr.length; i++) {
+            data += "<tr>\n";
+            for (let j = 0; j < arr.length; j++) {
+                data += "<td onclick='changeValue(" + i + "," + j + ")' style='text-align: center;height: 50px;width: 50px'>"
+                    + arr[i][j] + "</td>\n"
+            }
+            data += "</tr>\n";
+        }
+        data += "</table>\n";
+        board.innerHTML = data;
+    }
+
+    function changeValue(i, j) {
+        if (checkPlayer && checkInput(i, j)) {
+            arr[i][j] = "X";
+            checkPlayer = false;
+            if (checkWin('X')){
+                alert("Nguoi choi X thang");
+                document.getElementById("reset").hidden = false;
+            }
+        } else if (!checkPlayer && checkInput(i, j)) {
+            arr[i][j] = "O";
+            checkPlayer = true;
+            if (checkWin('O')){
+                alert("Nguoi choi O thang");
+                document.getElementById("reset").hidden = false;
+            }
+        }
+        displayBoard();
+    }
+
+    function checkInput(i, j) {
+        if (arr[i][j] === 'X' || arr[i][j] === 'O') {
+            alert("o nay da duoc nhap");
+            return false;
+        }
+        return true;
+    }
+
+    function checkWin(player) {
+        for (let i = 0; i < arr.length; i++) {
+            for (let j = 0; j < arr.length; j++) {
+                if (arr[i][j] === player){
+                    if (arr[i][j+1] === player && arr[i][j+2] === player){
+                        return true;
+                    }
+                    if (arr[i+1][j] === player && arr[i+2][j]){
+                        return true;
+                    }
+                    if (arr[i+1][j-1] === player && arr[i-1][j+1]){
+                        return true;
+                    }
+                    if (arr[i+1][j+1] === player && arr[i-1][j-1]){
+                        return true;
+                    }
+                }
+            }
+        }
+        return false;
+    }
+
+    setArray();
+    displayBoard();
+
+
+</script>
+</body>
+</html>

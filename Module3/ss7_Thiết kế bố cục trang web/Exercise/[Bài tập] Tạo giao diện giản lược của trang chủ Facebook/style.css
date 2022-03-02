@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppons', sans-serif;
+}
+
+
+body {
+    background: white;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: blue;
+    padding: 2px 4%;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.logo, .search-box {
+    display: flex;
+}
+
+.nav-left, .nav-right {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.nav-center ul li {
+    color: white;
+    list-style: none;
+    display: inline-block;
+}
+
+.nav-center ul li svg {
+    width: 30px;
+    margin: 0 15px;
+}
+
+.nav-right ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.nav-center {
+    color: white;
+    cursor: pointer;
+}
+
+
+.nav-user-button svg {
+    width: 40px;
+    cursor: pointer;
+}
+
+
+.search-box {
+    background: white;
+    width: 200px;
+    border-radius: 20px;
+    align-items: center;
+    padding: 0 15px;
+    margin-left: 15px;
+}
+
+.search-box svg {
+    width: 18px;
+}
+
+.search-box input {
+    width: 100%;
+    background: transparent;
+    padding: 10px;
+    outline: none;
+    border: 0;
+}
+
+.online {
+    position: relative;
+}
+
+.online::after {
+    content: '';
+    width: 7px;
+    height: 7px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    background: #41db51;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 5%;
+}
+
+.left-sidebar {
+    background: #cbdffa;
+    flex-basis: 25%;
+    position: sticky;
+    top: 70px;
+    align-self: flex-start;
+    height: 100vh;
+}
+
+.main-content {
+    flex-basis: 47%;
+}
+
+.right-sidebar{
+    background: #cbdffa;
+    flex-basis: 25%;
+    position: sticky;
+    top: 70px;
+    align-self: flex-start;
+    height: 100vh;
+}
+
+/*#box-fa {*/
+/*    margin-bottom: 10px;*/
+/*}*/
+
+
+/*// cái nào có class là box- thì nó sẽ nhận css*!*!*/
+/*[class*="box-"] {*/
+/*    height: 6px;*/
+/*    width: 400px;*/
+/*    background: #f6f7f9;*/
+/*    margin-bottom: 13px;*/
+/*    margin-right: 5px;*/
+/*}*/
+
+/*.box-loading {*/
+/*    background: #fff;*/
+/*    height: 305px;*/
+/*    width: 500px;*/
+/*    padding: 10px;*/
+/*    display: block;*/
+/*    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);*/
+/*    -o-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);*/
+/*    -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);*/
+/*    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);*/
+/*    border-radius: 3px;*/
+/*    !*-o-border-radius: 3px;*!*/
+/*    -moz-border-radius: 3px;*/
+/*    -webkit-border-radius: 3px;*/
+/*    margin: 0 auto;*/
+/*}*/
+
+
+/*.box-thumbnail {*/
+/*    height: 40px;*/
+/*    width: 40px;*/
+/*    float: left;*/
+/*    margin-right: 20px;*/
+/*    display: inline-block;*/
+/*}*/
+
+/*// chịu khó viết style cho từng line nhé*!*!*/
+/*.box-line-sm {*/
+/*    width: 120px;*/
+/*    margin-top: 10px;*/
+/*    margin-left: 50px;*/
+/*}*/
+
+/*.box-line-xs {*/
+/*    width: 80px;*/
+/*    margin-left: 50px;*/
+/*}*/
+
+/*.box-line-df {*/
+/*    margin-top: 30px;*/
+/*    width: 380px;*/
+/*}*/
+
+/*.box-line-lg {*/
+/*    width: 200px;*/
+/*}*/
+
+/*.box-line-lgx {*/
+/*    width: 450px;*/
+/*}*/
+
+/*[class*="box-line"],*/
+/*.box-thumbnail {*/
+/*    animation: timeline; !/ tên của animation để truyền action*!*!*/
+/*    animation-duration: 1s; !/ thời gian thực thi action*!*!*/
+/*    animation-timing-function: linear; !/ hiệu ứng cho action, có nhiều lắm thực chất nó là cubic-bezier, ai muốn custom thì xem link này http://cubic-bezier.com*!*!*/
+/*    animation-iteration-count: infinite; !/ số lần chạy action, mình cho nó vô tận luôn*!*!*/
+/*    background: linear-gradient(to right, #eeeeee 8%, #dddddd 18%, #eeeeee 33%); !* // gradient cho từng cái line*!*/
+/*    background-size: 800px auto; !* // kích thước của cái bóng mờ mờ (gradient)*!*/
+/*}*/
+
+/*// hành động của animation cho nó chạy từ trái sang phải*!*!*/
+/*@keyframes timeline {*/
+/*    0% {*/
+/*        background-position: -350px 0;*/
+/*    }*/
+/*    100% {*/
+/*        background-position: 400px 0;*/
+/*    }*/
+/*}*/
+

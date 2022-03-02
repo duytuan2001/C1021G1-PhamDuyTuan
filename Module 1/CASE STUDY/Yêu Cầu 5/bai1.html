@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Viết hàm tính tổng các số chẵn trong ma trận có kích thước m*n.
+        Với m, n là các số nhập từ bàn phím.</title>
+</head>
+<body>
+<script>
+    let n = parseInt(prompt("Nhập số lượn Mảng"));
+    let m = parseInt(prompt("Nhập số lượn phần tử"));
+    let a = [];
+    let b = [];
+    let sum = 0;
+    for(let i = 0; i < n; i++){
+        // a[i] = new Array(m);
+        a[i] = [];
+    }
+    for(let i = 0; i < n; i++) {
+        for (let j = 0; j < m; j++) {
+            a[i][j] = parseInt(prompt("Nhập phần tử" + "["+ i +"]"+"["+ j+"]"));
+            if (a[i][j] % 2 == 0) {
+                sum += a[i][j];
+            }
+        }
+    }
+    console.log(sum);
+</script>
+</body>
+</html>

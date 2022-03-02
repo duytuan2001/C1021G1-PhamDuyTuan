@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p>Dãy fibonaci</p>
+<script>
+    let a;
+    let b;
+    let count = 0
+    let c;
+    a = 1
+    b = 1
+    let daySo = parseInt(prompt("nhập số lượng n của dãy số :"))
+    if (daySo > 0) {
+        while (count <= daySo) {
+            c = a + b;
+            document.write(a);
+            document.write("<br>");
+            a = b;
+            b = c;
+            count++
+        }
+    }
+</script>
+</body>
+</html>

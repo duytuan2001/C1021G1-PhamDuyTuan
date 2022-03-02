@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+    let a = []
+    let n = prompt("Nhập độ dài của mảng")
+    for (let i = 0; i<n; i++){
+        a[i]= prompt("Nhập phần tử thứ:"+i)
+    }
+    let index = prompt("Nhập số cần tìm")
+    function indexOf(a,index) {
+        count = 0
+        for (let i =0; i<a.length;i++){
+            if (a[i]==index){
+                count += 1
+            }
+        }if (count == 0){
+            return - 1;
+        }
+        return count;
+    }
+    console.log(a)
+    console.log(indexOf(a,index))
+</script>
+</body>
+</html>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bb0faf60-ae09-43e8-9499-15c9918d8f41" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../CaseStudy_C09/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CaseStudy_C09/src/main/java/controller/ProductServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CaseStudy_C09/src/main/java/model/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CaseStudy_C09/src/main/java/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CaseStudy_C09/src/main/java/repository/BaseRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CaseStudy_C09/src/main/java/repository/product/ICategoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CaseStudy_C09/src/main/java/repository/product/IProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CaseStudy_C09/src/main/java/repository/product/impl/CategoryRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CaseStudy_C09/src/main/java/repository/product/impl/ProductRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CaseStudy_C09/src/main/java/service/ICategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CaseStudy_C09/src/main/java/service/IProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CaseStudy_C09/src/main/java/service/impl/CategoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CaseStudy_C09/src/main/java/service/impl/ProductServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CaseStudy_C09/src/main/webapp/product/create.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CaseStudy_C09/src/main/webapp/product/edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CaseStudy_C09/src/main/webapp/product/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CaseStudy_C09/.gradle/7.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy_C09/.gradle/7.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CaseStudy_C09/.gradle/7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy_C09/.gradle/7.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CaseStudy_C09/.gradle/7.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy_C09/.gradle/7.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CaseStudy_C09/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy_C09/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CaseStudy_C09/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy_C09/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CaseStudy_C09/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy_C09/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CaseStudy_C09/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy_C09/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CaseStudy_C09/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy_C09/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module3_AccountName_WBE/.gradle/7.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Module3_AccountName_WBE/.gradle/7.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module3_AccountName_WBE/.gradle/7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Module3_AccountName_WBE/.gradle/7.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module3_AccountName_WBE/.gradle/7.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Module3_AccountName_WBE/.gradle/7.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module3_AccountName_WBE/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Module3_AccountName_WBE/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module3_AccountName_WBE/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Module3_AccountName_WBE/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module3_AccountName_WBE/build/classes/java/main/controller/CustomerServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/Module3_AccountName_WBE/build/classes/java/main/controller/CustomerServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module3_AccountName_WBE/build/classes/java/main/repository/BaseRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/Module3_AccountName_WBE/build/classes/java/main/repository/BaseRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module3_AccountName_WBE/build/classes/java/main/repository/customer/impl/CustomerRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/Module3_AccountName_WBE/build/classes/java/main/repository/customer/impl/CustomerRepositoryImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module3_AccountName_WBE/build/classes/java/main/repository/customer/impl/CustomerTypeRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/Module3_AccountName_WBE/build/classes/java/main/repository/customer/impl/CustomerTypeRepositoryImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module3_AccountName_WBE/build/libs/Module2_AccountName_WBE-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/Module3_AccountName_WBE/build/libs/Module2_AccountName_WBE-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module3_AccountName_WBE/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Module3_AccountName_WBE/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module3_AccountName_WBE/src/main/java/controller/CustomerServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module3_AccountName_WBE/src/main/java/controller/CustomerServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module3_AccountName_WBE/src/main/java/repository/BaseRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module3_AccountName_WBE/src/main/java/repository/BaseRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module3_AccountName_WBE/src/main/java/repository/customer/impl/CustomerRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module3_AccountName_WBE/src/main/java/repository/customer/impl/CustomerRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module3_AccountName_WBE/src/main/java/repository/customer/impl/CustomerTypeRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module3_AccountName_WBE/src/main/java/repository/customer/impl/CustomerTypeRepositoryImpl.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="25Dgkq6z2YprHHIQf30MFDMzHud" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bb0faf60-ae09-43e8-9499-15c9918d8f41" name="Changes" comment="" />
+      <created>1645067217262</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1645067217262</updated>
+      <workItem from="1645067218364" duration="9000" />
+      <workItem from="1645638207268" duration="444000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="85b09b0a-1e78-448e-9356-1376b4be531b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../CaseStudy_MVC/Module2_AccountName_WBE/src/main/java/controller/EmployeeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CaseStudy_MVC/Module2_AccountName_WBE/src/main/java/repository/employee/DivisionRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CaseStudy_MVC/Module2_AccountName_WBE/src/main/java/repository/employee/EducationDegreeServiceRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CaseStudy_MVC/Module2_AccountName_WBE/src/main/java/repository/employee/PositionRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CaseStudy_MVC/Module2_AccountName_WBE/src/main/java/repository/employee/impl/DivisionRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CaseStudy_MVC/Module2_AccountName_WBE/src/main/java/repository/employee/impl/EducationDegreeRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CaseStudy_MVC/Module2_AccountName_WBE/src/main/java/repository/employee/impl/EmployeeRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CaseStudy_MVC/Module2_AccountName_WBE/src/main/java/repository/employee/impl/PositionRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CaseStudy_MVC/Module2_AccountName_WBE/src/main/java/service/employee/DivisionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CaseStudy_MVC/Module2_AccountName_WBE/src/main/java/service/employee/EducationDegreeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CaseStudy_MVC/Module2_AccountName_WBE/src/main/java/service/employee/PositionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CaseStudy_MVC/Module2_AccountName_WBE/src/main/java/service/employee/impl/DivisionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CaseStudy_MVC/Module2_AccountName_WBE/src/main/java/service/employee/impl/EducationDegreeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CaseStudy_MVC/Module2_AccountName_WBE/src/main/java/service/employee/impl/PositionServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/repository/impl/StudentRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/repository/impl/StudentRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/demo-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/demo-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CaseStudy_MVC/Module2_AccountName_WBE/.gradle/7.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../CaseStudy_MVC/Module2_AccountName_WBE/.gradle/7.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CaseStudy_MVC/Module2_AccountName_WBE/.gradle/7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../CaseStudy_MVC/Module2_AccountName_WBE/.gradle/7.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CaseStudy_MVC/Module2_AccountName_WBE/.gradle/7.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../CaseStudy_MVC/Module2_AccountName_WBE/.gradle/7.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CaseStudy_MVC/Module2_AccountName_WBE/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../CaseStudy_MVC/Module2_AccountName_WBE/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CaseStudy_MVC/Module2_AccountName_WBE/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../CaseStudy_MVC/Module2_AccountName_WBE/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CaseStudy_MVC/Module2_AccountName_WBE/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../../CaseStudy_MVC/Module2_AccountName_WBE/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CaseStudy_MVC/Module2_AccountName_WBE/build/classes/java/main/controller/DataBaseServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CaseStudy_MVC/Module2_AccountName_WBE/build/classes/java/main/model/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../CaseStudy_MVC/Module2_AccountName_WBE/build/classes/java/main/model/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CaseStudy_MVC/Module2_AccountName_WBE/build/classes/java/main/model/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../CaseStudy_MVC/Module2_AccountName_WBE/build/classes/java/main/model/Employee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CaseStudy_MVC/Module2_AccountName_WBE/build/classes/java/main/repository/BaseRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../CaseStudy_MVC/Module2_AccountName_WBE/build/classes/java/main/repository/BaseRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CaseStudy_MVC/Module2_AccountName_WBE/build/classes/java/main/repository/customer/ICustomerRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../CaseStudy_MVC/Module2_AccountName_WBE/build/classes/java/main/repository/customer/ICustomerRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CaseStudy_MVC/Module2_AccountName_WBE/build/classes/java/main/repository/customer/impl/CustomerRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../CaseStudy_MVC/Module2_AccountName_WBE/build/classes/java/main/repository/customer/impl/CustomerRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CaseStudy_MVC/Module2_AccountName_WBE/build/classes/java/main/repository/employee/IEmployeeRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CaseStudy_MVC/Module2_AccountName_WBE/build/classes/java/main/repository/employee/impl/EmployeeRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CaseStudy_MVC/Module2_AccountName_WBE/build/classes/java/main/service/customer/ICustomerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../CaseStudy_MVC/Module2_AccountName_WBE/build/classes/java/main/service/customer/ICustomerService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CaseStudy_MVC/Module2_AccountName_WBE/build/classes/java/main/service/customer/impl/CustomerServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../CaseStudy_MVC/Module2_AccountName_WBE/build/classes/java/main/service/customer/impl/CustomerServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CaseStudy_MVC/Module2_AccountName_WBE/build/classes/java/main/service/employee/IEmployeeService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CaseStudy_MVC/Module2_AccountName_WBE/build/classes/java/main/service/employee/impl/EmployeeServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../CaseStudy_MVC/Module2_AccountName_WBE/build/classes/java/main/service/employee/impl/EmployeeServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CaseStudy_MVC/Module2_AccountName_WBE/build/libs/Module2_AccountName_WBE-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/../../CaseStudy_MVC/Module2_AccountName_WBE/build/libs/Module2_AccountName_WBE-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CaseStudy_MVC/Module2_AccountName_WBE/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../CaseStudy_MVC/Module2_AccountName_WBE/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CaseStudy_MVC/Module2_AccountName_WBE/src/main/java/controller/ContractServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../CaseStudy_MVC/Module2_AccountName_WBE/src/main/java/controller/ContractServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CaseStudy_MVC/Module2_AccountName_WBE/src/main/java/controller/EmployeeServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CaseStudy_MVC/Module2_AccountName_WBE/src/main/java/controller/ServiceServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../CaseStudy_MVC/Module2_AccountName_WBE/src/main/java/controller/ServiceServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CaseStudy_MVC/Module2_AccountName_WBE/src/main/java/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../CaseStudy_MVC/Module2_AccountName_WBE/src/main/java/model/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CaseStudy_MVC/Module2_AccountName_WBE/src/main/java/model/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../CaseStudy_MVC/Module2_AccountName_WBE/src/main/java/model/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CaseStudy_MVC/Module2_AccountName_WBE/src/main/java/model/Position.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../CaseStudy_MVC/Module2_AccountName_WBE/src/main/java/model/Position.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CaseStudy_MVC/Module2_AccountName_WBE/src/main/java/model/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../CaseStudy_MVC/Module2_AccountName_WBE/src/main/java/model/Service.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CaseStudy_MVC/Module2_AccountName_WBE/src/main/java/repository/BaseRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../CaseStudy_MVC/Module2_AccountName_WBE/src/main/java/repository/BaseRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CaseStudy_MVC/Module2_AccountName_WBE/src/main/java/repository/customer/ICustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../CaseStudy_MVC/Module2_AccountName_WBE/src/main/java/repository/customer/ICustomerRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CaseStudy_MVC/Module2_AccountName_WBE/src/main/java/repository/customer/impl/CustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../CaseStudy_MVC/Module2_AccountName_WBE/src/main/java/repository/customer/impl/CustomerRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CaseStudy_MVC/Module2_AccountName_WBE/src/main/java/repository/employee/IEmployeeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../CaseStudy_MVC/Module2_AccountName_WBE/src/main/java/repository/employee/EmployeeRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CaseStudy_MVC/Module2_AccountName_WBE/src/main/java/repository/employee/impl/EmployeeRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CaseStudy_MVC/Module2_AccountName_WBE/src/main/java/service/customer/ICustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../CaseStudy_MVC/Module2_AccountName_WBE/src/main/java/service/customer/ICustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CaseStudy_MVC/Module2_AccountName_WBE/src/main/java/service/customer/impl/CustomerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../CaseStudy_MVC/Module2_AccountName_WBE/src/main/java/service/customer/impl/CustomerServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CaseStudy_MVC/Module2_AccountName_WBE/src/main/java/service/employee/IEmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../CaseStudy_MVC/Module2_AccountName_WBE/src/main/java/service/employee/EmployeeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CaseStudy_MVC/Module2_AccountName_WBE/src/main/java/service/employee/impl/EmployeeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../CaseStudy_MVC/Module2_AccountName_WBE/src/main/java/service/employee/impl/EmployeeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CaseStudy_MVC/Module2_AccountName_WBE/src/main/webapp/employee/listEmployee.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../CaseStudy_MVC/Module2_AccountName_WBE/src/main/webapp/employee/listEmployee.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CaseStudy_MVC/Module2_AccountName_WBE/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../CaseStudy_MVC/Module2_AccountName_WBE/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CaseStudy_MVC/casestudy.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../CaseStudy_MVC/casestudy.sql" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Jsp File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="255Govkn9cKQODygsXYRFpvinjm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../ss13_ JDBC_Querying_&amp;_Transaction/practice/Call_SQL_Stored_Procedure_JDBC" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 8.5.57" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.57" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="Gradle : org.example : demo-1.0-SNAPSHOT.war">
+          <settings>
+            <option name="CONTEXT_PATH" value="" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="3c347d14-81d8-4ea5-87ef-21344c9cde62" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="51818" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Gradle : org.example : demo-1.0-SNAPSHOT.war" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="85b09b0a-1e78-448e-9356-1376b4be531b" name="Changes" comment="" />
+      <created>1644809714222</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1644809714222</updated>
+      <workItem from="1644809715778" duration="202000" />
+      <workItem from="1644810093825" duration="3920000" />
+      <workItem from="1644821446893" duration="252000" />
+      <workItem from="1644824988948" duration="134000" />
+      <workItem from="1644891108145" duration="962000" />
+      <workItem from="1644892573179" duration="118000" />
+      <workItem from="1644912955132" duration="4261000" />
+      <workItem from="1644940971974" duration="1296000" />
+      <workItem from="1644976582825" duration="15000" />
+      <workItem from="1644998903218" duration="202000" />
+      <workItem from="1645026644088" duration="622000" />
+      <workItem from="1645027288400" duration="834000" />
+      <workItem from="1645028652553" duration="38000" />
+      <workItem from="1645028736455" duration="13000" />
+      <workItem from="1645028952257" duration="41000" />
+      <workItem from="1645081758580" duration="457000" />
+      <workItem from="1645165479205" duration="961000" />
+      <workItem from="1645202865767" duration="183000" />
+      <workItem from="1645203270851" duration="99000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

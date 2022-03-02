@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Do You Love Me</title>
+</head>
+<style>
+    body{
+        text-align: center;
+    }
+</style>
+<body>
+<h1>Do You Love Me</h1>
+
+<button onclick="clickYes()">Yes</button>
+
+<button id="no" onmouseover="clickNo()" style="position: relative">No</button>
+
+</body>
+<script>
+
+    function clickYes() {
+        alert("I Love You Too");
+    }
+
+    function clickNo() {
+        let x = window.innerWidth ;
+        let y = window.innerHeight ;
+
+        let item = document.getElementById("no");
+        item.style.left = Math.random() * x + 'px' ;
+        item.style.top = Math.random() * y + 'px' ;
+
+    }
+
+</script>
+</html>

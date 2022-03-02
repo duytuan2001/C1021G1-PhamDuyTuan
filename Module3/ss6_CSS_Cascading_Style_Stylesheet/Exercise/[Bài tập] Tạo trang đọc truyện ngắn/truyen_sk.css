@@ -1,0 +1,42 @@
+* {
+    font-family: "Merriweather";
+    margin: 0;
+}
+
+h1, h2{
+    margin-top: 0;
+}
+
+#top {
+    background-color: #3498db;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    margin-bottom: 30px;
+
+}
+
+#top h1 {
+    margin-bottom: 10px;
+}
+
+#bottom {
+    text-align: center;
+    font-weight: 900;
+    background-color: #bdc3c7;
+    line-height: 30px;
+    margin-top: 30px;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.photograph {
+    text-align: center;
+}

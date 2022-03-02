@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Giải phương trình bậc 2</title>
+</head>
+        <!--Phương trình bậc 2 là phương trình có dạng ax2+bx+c=0 (a≠0) (1).-->
+        <!--Giải phương trình bậc 2 là đi tìm các giá trị của x sao cho khi thay x vào phương trình (1) thì thỏa mãn ax2+bx+c=0.-->
+        <!--Giải phương trình bậc 2-->
+        <!--Bước 1: Tính Δ=b2-4ac-->
+        <!--Bước 2: So sánh Δ với 0-->
+
+        <!--Δ < 0 => phương trình (1) vô nghiệm-->
+        <!--Δ = 0 => phương trình (1) có nghiệm kép x_{1} =x_{2} = - b/2a-->
+        <!--Δ > 0 => phương trình (1) có 2 nghiệm phân biệt, ta dùng công thức nghiệm sau:-->
+        <!--x_{1} =(-b+căn delta)/2a và x_{2} =(-b-căn delta)/2a-->
+
+<body>
+<script>
+    let a=prompt("Nhập số a≠0")
+    let b=prompt("Nhập số b")
+    let c=prompt("Nhập số c")
+    let delta=(b*b)-4*a*c
+    if (delta < 0){
+        alert("phương trình vô nghiệm")
+    }
+    else if(delta == 0){
+        alert("Phương trình có nghiệm kép")
+        let x=-b/(2*a)
+        document.write("x<sub>1</sub>=x<sub>2</sub>="+x);
+    }
+    else{
+        alert("Phương trình có 2 nghiệm phân biệt")
+        let x1 = (-b+Math.sqrt(delta))/(2*a);
+        let x2 = (-b-Math.sqrt(delta))/(2*a);
+        document.write("x<sub>1</sub>= " + x1);
+        document.write("x<sub>2</sub>= " + x2);
+    }
+</script>
+</body>
+</html>

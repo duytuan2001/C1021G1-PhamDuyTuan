@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="51ef9ede-d364-4549-90ed-306c8bb8f6fe" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module 1/Bài 5. HTML Form &amp; Table/Bài tập/[Bài tập] Tạo bảng nâng cao/tao bang nang cao.html" beforeDir="false" afterPath="$PROJECT_DIR$/Module 1/Bài 5. HTML Form &amp; Table/Bài tập/[Bài tập] Tạo bảng nâng cao/tao bang nang cao.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Module3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module3/ss10_JSP_and_JSTL/exersice/display_customer/.gradle/7.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Module3/ss10_JSP_and_JSTL/exersice/display_customer/.gradle/7.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module3/ss10_JSP_and_JSTL/exersice/display_customer/.gradle/7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Module3/ss10_JSP_and_JSTL/exersice/display_customer/.gradle/7.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module3/ss10_JSP_and_JSTL/exersice/display_customer/.gradle/7.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Module3/ss10_JSP_and_JSTL/exersice/display_customer/.gradle/7.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module3/ss10_JSP_and_JSTL/exersice/display_customer/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Module3/ss10_JSP_and_JSTL/exersice/display_customer/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module3/ss10_JSP_and_JSTL/exersice/display_customer/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Module3/ss10_JSP_and_JSTL/exersice/display_customer/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module3/ss10_JSP_and_JSTL/exersice/display_customer/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Module3/ss10_JSP_and_JSTL/exersice/display_customer/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module3/ss10_JSP_and_JSTL/exersice/display_customer/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Module3/ss10_JSP_and_JSTL/exersice/display_customer/.gradle/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module3/ss10_JSP_and_JSTL/exersice/display_customer/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Module3/ss10_JSP_and_JSTL/exersice/display_customer/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module3/ss10_JSP_and_JSTL/exersice/display_customer/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module3/ss10_JSP_and_JSTL/exersice/display_customer/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module3/ss10_JSP_and_JSTL/exersice/display_customer/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module3/ss10_JSP_and_JSTL/exersice/display_customer/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Module3/ss10_JSP_and_JSTL/exersice/display_customer/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module3/ss10_JSP_and_JSTL/exersice/display_customer/build/libs/display_customer-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/Module3/ss10_JSP_and_JSTL/exersice/display_customer/build/libs/display_customer-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module3/ss10_JSP_and_JSTL/practice/Currency_JSP/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module3/ss10_JSP_and_JSTL/practice/Currency_JSP/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module3/ss10_JSP_and_JSTL/practice/Currency_JSP/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Module3/ss10_JSP_and_JSTL/practice/Currency_JSP/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module3/ss10_JSP_and_JSTL/practice/Currency_JSP/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module3/ss10_JSP_and_JSTL/practice/Currency_JSP/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Module3/ss10_JSP_and_JSTL/practice/Currency_JSP/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module3/ss10_JSP_and_JSTL/practice/Currency_JSP/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module3/ss10_JSP_and_JSTL/practice/Currency_JSP/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Module3/ss10_JSP_and_JSTL/practice/Currency_JSP/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module3/ss10_JSP_and_JSTL/practice/Dictionary_JSP/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module3/ss11_MVC_Model/practice/quan_ly_khach_hang/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Module3/ss11_MVC_Model/practice/quan_ly_khach_hang/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module3/ss7_Thiết kế bố cục trang web/Exercise/[Bài tập] Tạo giao diện giản lược của trang chủ Facebook/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Module3/ss7_Thiết kế bố cục trang web/Exercise/[Bài tập] Tạo giao diện giản lược của trang chủ Facebook/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module3/ss7_Thiết kế bố cục trang web/Exercise/[Bài tập] Tạo giao diện giản lược của trang chủ Facebook/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Module3/ss7_Thiết kế bố cục trang web/Exercise/[Bài tập] Tạo giao diện giản lược của trang chủ Facebook/style.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="21cPeHtnuH3Z15sDKJ3wfUCycXQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="51ef9ede-d364-4549-90ed-306c8bb8f6fe" name="Changes" comment="" />
+      <created>1638237506803</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1638237506803</updated>
+      <workItem from="1638237508417" duration="80000" />
+      <workItem from="1638237660240" duration="49000" />
+      <workItem from="1638237872998" duration="12000" />
+      <workItem from="1638237976521" duration="347000" />
+      <workItem from="1638238702166" duration="46000" />
+      <workItem from="1638239567012" duration="808000" />
+      <workItem from="1638240595345" duration="408000" />
+      <workItem from="1638241373112" duration="600000" />
+      <workItem from="1638243410306" duration="207000" />
+      <workItem from="1638256168152" duration="25000" />
+      <workItem from="1638258081714" duration="3189000" />
+      <workItem from="1638266593926" duration="64000" />
+      <workItem from="1638600050419" duration="2000" />
+      <workItem from="1638624149810" duration="78000" />
+      <workItem from="1640567981746" duration="58000" />
+      <workItem from="1640568051589" duration="19000" />
+      <workItem from="1640661709303" duration="13000" />
+      <workItem from="1644292800374" duration="2815000" />
+      <workItem from="1644483722246" duration="204000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

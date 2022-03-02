@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Xếp hạng học lực của học sinh dựa trên các điểm bài kiểm tra, điểm thi giữa kỳ, điểm thi cuối kỳ</title>
+</head>
+<body>
+<script>
+    let a=prompt("Nhập điểm bài kiểm tra")
+    let b=prompt("Nhập điểm thi giữa kỳ")
+    let c=prompt("Nhập điểm thi cuối kỳ")
+    let area= (a+(b*2)+(c*3))/6
+    if(area>=8.0){
+        alert("Học lực: Giỏi")
+    }
+    else if(area>=6.5){
+        alert("Học lực: Khá")
+    }
+    else if(area>=5.0){
+        alert("Học lực: Trung Bình")
+    }
+    else{
+        alert("Học lực: Yếu")
+    }
+</script>
+</body>
+</html>

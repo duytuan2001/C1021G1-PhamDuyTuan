@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    class mobile {
+        constructor(name, battery, status) {
+            this.name = name;
+            this.battery = battery;
+            this.tinnhan = "";
+            this.hopthuden = [];
+            this.hopthudi = [];
+            this.status = status;
+        }
+
+        battatdienthoai() {
+            confirm("Bạn có muốn bật điện thoại");
+            if (confirm()) {
+                return this.status = true;
+            } else {
+                return this.status = false;
+            }
+        }
+
+        checkDT() {
+            if (this.status) {
+                console.log("điện thoại đang tắt");
+            } else {
+                console.log("điện thoại chauw được bật");
+            }
+        }
+
+        anergyMobile(battery) {
+            if (this.battery <= 100) {
+                this.battery++;
+            }
+        }
+
+        tinnhan() {
+            if (this.status) {
+                console.log("đang soạn tin nhắn");
+                this.tinnhan = prompt("Hãy nhập tin nhắn");
+            } else {
+                console.log("chưa bật điện thoại nên không thể soạn tin nhắn");
+            }
+        }
+
+        nhantinnhan(tinnhan){
+            console.log(this.name + " bạn đã nhận tin nhắn: " + this.tinnhan());
+            this.hopthuden.push()
+            this.anergyMobile(battery--)
+
+        }
+
+        guitinnhan(phone){
+            this.tinnhan()
+            console.log(this.name + " Đã gửi cho ")
+        }
+
+
+    }
+
+    let nokia = new mobile(nokia, 80, );
+    let iphone = new mobile();
+
+    nokia.tinnhan(this.iphone)
+
+
+</script>
+</body>
+</html>
