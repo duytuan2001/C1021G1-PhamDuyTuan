@@ -19,7 +19,7 @@ public class CustomerController {
     public ModelAndView showList() {
         ModelAndView modelAndView = new ModelAndView("customers/list.jsp");
         List<Customer> customers = customerService.findAll();
-        modelAndView.addObject("customerList", customers);
+        modelAndView.addObject("customers", customers);
 
         return modelAndView;
     }

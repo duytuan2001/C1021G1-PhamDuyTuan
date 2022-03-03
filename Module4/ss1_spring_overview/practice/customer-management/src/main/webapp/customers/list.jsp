@@ -59,7 +59,7 @@
         border: 1px dotted #555;
     }
 </style>
-There are ${requestScope.customerList.size()} customer(s) in list.
+There are ${requestScope.customers.size()} customer(s) in list.
 <table>
     <caption>Customers List</caption>
     <thead>
@@ -71,7 +71,7 @@ There are ${requestScope.customerList.size()} customer(s) in list.
     </tr>
     </thead>
     <tbody>
-    <c:forEach var="c" items="${requestScope.customerList}">
+    <c:forEach var="c" items="${requestScope.customers}">
         <tr>
             <td>
                 <c:out value="${c.id}"/>
