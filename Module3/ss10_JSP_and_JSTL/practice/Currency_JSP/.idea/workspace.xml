@@ -5,24 +5,81 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1855d0b9-5de9-4565-a1af-0c5e85ad4a17" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../exersice/display_customer/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../exersice/display_customer/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../exersice/display_customer/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../exersice/display_customer/.gradle/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../exersice/display_customer/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../exersice/display_customer/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../exersice/display_customer/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../exersice/display_customer/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../exersice/display_customer/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../exersice/display_customer/.idea/runConfigurations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../exersice/display_customer/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../exersice/display_customer/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../../exersice/display_customer/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ss7_Thiết kế bố cục trang web/Exercise/[Bài tập] Tạo giao diện giản lược của trang chủ Facebook/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss7_Thiết kế bố cục trang web/Exercise/[Bài tập] Tạo giao diện giản lược của trang chủ Facebook/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ss7_Thiết kế bố cục trang web/Exercise/[Bài tập] Tạo giao diện giản lược của trang chủ Facebook/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss7_Thiết kế bố cục trang web/Exercise/[Bài tập] Tạo giao diện giản lược của trang chủ Facebook/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Module4/ss6_JPA/exersice/extend-blog-application/src/main/java/com/codegym/extendblogapplication/repository/IBlogRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Module4/ss6_JPA/exersice/extend-blog-application/src/main/java/com/codegym/extendblogapplication/service/IBlogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Module4/ss6_JPA/exersice/extend-blog-application/src/main/java/com/codegym/extendblogapplication/service/impl/BlogServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Module4/ss6_JPA/exersice/extend-blog-application/src/main/resources/templates/layout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module4/ss2_spring_controller/exersice/displays_seasoning_with_sandwich/.gradle/7.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Module4/ss2_spring_controller/exersice/displays_seasoning_with_sandwich/.gradle/7.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module4/ss2_spring_controller/exersice/displays_seasoning_with_sandwich/.gradle/7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Module4/ss2_spring_controller/exersice/displays_seasoning_with_sandwich/.gradle/7.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module4/ss2_spring_controller/exersice/displays_seasoning_with_sandwich/.gradle/7.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Module4/ss2_spring_controller/exersice/displays_seasoning_with_sandwich/.gradle/7.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module4/ss2_spring_controller/exersice/displays_seasoning_with_sandwich/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Module4/ss2_spring_controller/exersice/displays_seasoning_with_sandwich/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module4/ss2_spring_controller/exersice/displays_seasoning_with_sandwich/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Module4/ss2_spring_controller/exersice/displays_seasoning_with_sandwich/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module4/ss2_spring_controller/exersice/displays_seasoning_with_sandwich/build/classes/java/main/com/codegym/controller/SandwichController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Module4/ss2_spring_controller/exersice/displays_seasoning_with_sandwich/build/classes/java/main/com/codegym/controller/SandwichController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module4/ss2_spring_controller/exersice/displays_seasoning_with_sandwich/build/libs/displays_seasoning_with_sandwich-1.0.war" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Module4/ss2_spring_controller/exersice/displays_seasoning_with_sandwich/build/libs/displays_seasoning_with_sandwich-1.0.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module4/ss2_spring_controller/exersice/displays_seasoning_with_sandwich/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Module4/ss2_spring_controller/exersice/displays_seasoning_with_sandwich/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module4/ss5_CSDL_ORM/practice/customer-managenment-orm/.gradle/6.1/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module4/ss5_CSDL_ORM/practice/customer-managenment-orm/.gradle/6.1/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module4/ss5_CSDL_ORM/practice/customer-managenment-orm/.gradle/6.1/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module4/ss5_CSDL_ORM/practice/customer-managenment-orm/.gradle/6.1/fileContent/fileContent.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module4/ss5_CSDL_ORM/practice/customer-managenment-orm/.gradle/6.1/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module4/ss5_CSDL_ORM/practice/customer-managenment-orm/.gradle/6.1/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module4/ss5_CSDL_ORM/practice/customer-managenment-orm/.gradle/6.1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module4/ss5_CSDL_ORM/practice/customer-managenment-orm/.gradle/6.1/javaCompile/classAnalysis.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module4/ss5_CSDL_ORM/practice/customer-managenment-orm/.gradle/6.1/javaCompile/javaCompile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module4/ss5_CSDL_ORM/practice/customer-managenment-orm/.gradle/6.1/javaCompile/taskHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module4/ss5_CSDL_ORM/practice/customer-managenment-orm/.gradle/7.1/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module4/ss5_CSDL_ORM/practice/customer-managenment-orm/.gradle/7.1/dependencies-accessors/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module4/ss5_CSDL_ORM/practice/customer-managenment-orm/.gradle/7.1/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module4/ss5_CSDL_ORM/practice/customer-managenment-orm/.gradle/7.1/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module4/ss5_CSDL_ORM/practice/customer-managenment-orm/.gradle/7.1/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module4/ss5_CSDL_ORM/practice/customer-managenment-orm/.gradle/7.1/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module4/ss5_CSDL_ORM/practice/customer-managenment-orm/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module4/ss5_CSDL_ORM/practice/customer-managenment-orm/.gradle/7.1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module4/ss5_CSDL_ORM/practice/customer-managenment-orm/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module4/ss5_CSDL_ORM/practice/customer-managenment-orm/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module4/ss5_CSDL_ORM/practice/customer-managenment-orm/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module4/ss5_CSDL_ORM/practice/customer-managenment-orm/.gradle/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module4/ss5_CSDL_ORM/practice/customer-managenment-orm/.gradle/checksums/md5-checksums.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module4/ss5_CSDL_ORM/practice/customer-managenment-orm/.gradle/checksums/sha1-checksums.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module4/ss5_CSDL_ORM/practice/customer-managenment-orm/.gradle/vcs-1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module4/ss5_CSDL_ORM/practice/customer-managenment-orm/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module4/ss5_CSDL_ORM/practice/customer-managenment-orm/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module4/ss5_CSDL_ORM/practice/customer-managenment-orm/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module4/ss5_CSDL_ORM/practice/customer-managenment-orm/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module4/ss5_CSDL_ORM/practice/customer-managenment-orm/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module4/ss5_CSDL_ORM/practice/customer-managenment-orm/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module4/ss5_CSDL_ORM/practice/customer-managenment-orm/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module4/ss5_CSDL_ORM/practice/customer-managenment-orm/build/classes/java/main/com/codegym/configuration/AppConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module4/ss5_CSDL_ORM/practice/customer-managenment-orm/build/classes/java/main/com/codegym/configuration/AppInitializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module4/ss5_CSDL_ORM/practice/customer-managenment-orm/build/classes/java/main/com/codegym/controller/CustomerController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module4/ss5_CSDL_ORM/practice/customer-managenment-orm/build/classes/java/main/com/codegym/model/Customer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module4/ss5_CSDL_ORM/practice/customer-managenment-orm/build/classes/java/main/com/codegym/repository/ICustomerRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module4/ss5_CSDL_ORM/practice/customer-managenment-orm/build/classes/java/main/com/codegym/repository/IGeneralRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module4/ss5_CSDL_ORM/practice/customer-managenment-orm/build/classes/java/main/com/codegym/repository/impl/CustomerRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module4/ss5_CSDL_ORM/practice/customer-managenment-orm/build/classes/java/main/com/codegym/service/ICustomerService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module4/ss5_CSDL_ORM/practice/customer-managenment-orm/build/classes/java/main/com/codegym/service/IGeneralService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module4/ss5_CSDL_ORM/practice/customer-managenment-orm/build/classes/java/main/com/codegym/service/impl/CustomerServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module4/ss5_CSDL_ORM/practice/customer-managenment-orm/build/libs/customer-managenment-orm-1.0.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module4/ss5_CSDL_ORM/practice/customer-managenment-orm/build/libs/customer-managenment-thymeleaf-1.0.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module4/ss5_CSDL_ORM/practice/customer-managenment-orm/build/tmp/war/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module4/ss5_CSDL_ORM/practice/customer-managenment-orm/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module4/ss5_CSDL_ORM/practice/customer-managenment-orm/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module4/ss5_CSDL_ORM/practice/customer-managenment-orm/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module4/ss5_CSDL_ORM/practice/customer-managenment-orm/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module4/ss5_CSDL_ORM/practice/customer-managenment-orm/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module4/ss5_CSDL_ORM/practice/customer-managenment-orm/src/main/java/com/codegym/configuration/AppConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module4/ss5_CSDL_ORM/practice/customer-managenment-orm/src/main/java/com/codegym/configuration/AppInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module4/ss5_CSDL_ORM/practice/customer-managenment-orm/src/main/java/com/codegym/controller/CustomerController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module4/ss5_CSDL_ORM/practice/customer-managenment-orm/src/main/java/com/codegym/model/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module4/ss5_CSDL_ORM/practice/customer-managenment-orm/src/main/java/com/codegym/repository/ICustomerRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module4/ss5_CSDL_ORM/practice/customer-managenment-orm/src/main/java/com/codegym/repository/IGeneralRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module4/ss5_CSDL_ORM/practice/customer-managenment-orm/src/main/java/com/codegym/repository/impl/CustomerRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module4/ss5_CSDL_ORM/practice/customer-managenment-orm/src/main/java/com/codegym/service/ICustomerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module4/ss5_CSDL_ORM/practice/customer-managenment-orm/src/main/java/com/codegym/service/IGeneralService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module4/ss5_CSDL_ORM/practice/customer-managenment-orm/src/main/java/com/codegym/service/impl/CustomerServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module4/ss5_CSDL_ORM/practice/customer-managenment-orm/src/main/webapp/WEB-INF/views/infor.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module4/ss5_CSDL_ORM/practice/customer-managenment-orm/src/main/webapp/WEB-INF/views/list.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +105,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Dictionary_JSP" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../Module4/ss8_validation/exersice" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.571" ALTERNATIVE_JRE_ENABLED="false">
@@ -115,7 +172,7 @@
       </method>
     </configuration>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -132,10 +189,18 @@
       <workItem from="1643771314070" duration="24000" />
       <workItem from="1643975264861" duration="22000" />
       <workItem from="1643975340716" duration="20000" />
+      <workItem from="1646797235187" duration="18000" />
+      <workItem from="1646797277158" duration="73000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1646797347579">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1646797347579" />
   </component>
 </project>
