@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:replace="/layout :: head">
+</head>
+<body>
+<h3 style="text-align: center">User</h3>
+<p>
+    <a th:href="@{/user/create}">
+        Add new Blog
+    </a>
+</p>
+<!--/*@thymesVar id="message" type="templates"*/-->
+<p th:text="${message}"></p>
+<table id="blog">
+    <thead>
+    <tr>
+        <th>ID</th>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Number Phone</th>
+        <th>Age</th>
+        <th>Email</th>
+        <th>Edit</th>
+        <th>Delete</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="users : ${userList}">
+        <td><a th:href="@{/user/{id}/view(id=${users.getId()})}" th:text="${users.getId()()}"></a></td>
+        <td th:text="${users.getFirstName()}"></td>
+        <td th:text="${users.getLastName()}"></td>
+        <td th:text="${users.getPhoneNumber()}"></td>
+        <td th:text="${users.getAge()()}"></td>
+        <td th:text="${users.getEmail()}"></td>
+        <td><a th:href="@{/user/{id}/edit(id=${users.getId()})}">edit</a></td>
+        <td><a th:href="@{/user/{id}/delete(id=${users.getId()})}">delete</a></td>
+    </tr>
+    </tbody>
+</table>
+<footer th:replace="/layout :: footer"></footer>
+
+<div>
+    <a th:href="@{'/user'(page = ${userList.number - 1})}"
+       th:if="${userList.hasPrevious()}">Previous</a>
+    <span th:text="${userList.number + 1}"></span>
+    / <span th:text="${userList.totalPages}"></span>
+    <a th:href="@{'/user'(page = ${userList.number + 1})}"
+       th:if="${userList.hasNext()}">Next</a>
+</div>
+</body>
+</html>

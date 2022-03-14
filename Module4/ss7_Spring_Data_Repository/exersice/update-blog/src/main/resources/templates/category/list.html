@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:replace="/layout :: head">
+</head>
+<style>
+    p, a{
+        display: inline-block;
+        margin-right: 15px;
+    }
+</style>
+<body>
+<h3 style="text-align: center">Category</h3>
+<p>
+    <a th:href="@{/category/create}">
+        Add new category
+    </a>
+    <a th:href="@{/blog/list}">
+        Back To Blog list
+    </a>
+</p>
+<!--/*@thymesVar id="message" type="templates"*/-->
+<p th:text="${message}"></p>
+<table id="blog">
+    <thead>
+    <tr>
+        <th>Id</th>
+        <th>Name Category</th>
+        <th>Edit</th>
+        <th>Delete</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="categorys : ${categoryList}">
+        <td th:text="${categorys.getIdCategory()}"></td>
+        <td><a th:href="@{/category/{id}/view(id=${categorys.getIdCategory()})}" th:text="${categorys.getNameCategory()}"></a></td>
+        <td><a th:href="@{/category/{id}/edit(id=${categorys.getIdCategory()})}">edit</a></td>
+        <td><a th:href="@{/category/{id}/delete(id=${categorys.getIdCategory()})}">delete</a></td>
+    </tr>
+    </tbody>
+</table>
+<footer th:replace="/layout :: footer"></footer>
+
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:replace="/layout :: head"></head>
+<body>
+<h3>Remove Blog</h3>
+<p>
+    <a th:href="@{/blog/list}">
+        Back to blog list
+    </a>
+</p>
+<div id="form">
+    <form action="#" th:action="@{/blog/delete}" th:object="${blog}"
+          method="POST" novalidate="novalidate">
+        <div>
+            <label>Id blog: </label>
+            <label th:text="${id}"/>
+        </div>
+        <div>
+            <label>Name blog: </label>
+            <label th:text="${blog.getNameBlog()}"/>
+        </div>
+        <div>
+            <label>Date Create blog: </label>
+            <label th:text="${blog.getStarDate()}"/>
+        </div>
+        <div>
+            <label>Blog Content: </label>
+            <label th:text="${blog.getContent()}"/>
+        </div>
+
+        <div>
+            <label>Category Name:</label>
+            <span th:text="${blog.getCategory().getNameCategory()}"></span>
+        </div>
+
+        <input type="submit" value="Remove"/>
+    </form>
+</div>
+<footer th:replace="/layout :: footer"></footer>
+</body>
+</html>
