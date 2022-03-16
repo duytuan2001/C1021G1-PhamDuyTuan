@@ -4,17 +4,19 @@
 </head>
 <style>
     p, a, form{
-        display: inline-block;
+        display: inline;
         margin-right: 15px;
     }
 </style>
 <body>
 <h3 style="text-align: center">Blog</h3>
+
 <p>
     <a th:href="@{/blog/create}">
         Add new Blog
     </a>
 </p>
+
 <p>
     <a th:href="@{/category/list}">
         To Seen Category List
@@ -30,7 +32,7 @@
 </form>
 
 <form action="/blog/search">
-    <input type="text" name="search">
+    <input style="width: 30%" type="text" name="search">
     <input type="submit" value="search">
 </form>
 
