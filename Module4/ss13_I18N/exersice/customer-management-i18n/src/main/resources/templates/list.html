@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta http-equiv='Content-Type' content='text/html; charset=UTF-8' />
+    <title th:text="#{}"></title>
+</head>
+<body>
+<h1 th:text="#{}"></h1>
+Language: <a href="?lang=en">English</a> | <a href="?lang=vi">Hawaii</a>
+<form th:action="@{/}" th:object="${}" method="post">
+
+
+</form>
+</body>
+</html>

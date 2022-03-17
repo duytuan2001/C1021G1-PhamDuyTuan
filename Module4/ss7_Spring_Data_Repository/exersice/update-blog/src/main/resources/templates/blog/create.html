@@ -21,7 +21,7 @@
             <input type="text" th:field="*{content}"/>
         </div>
         <div>
-            <label>Category: </label><td>
+            <label>Category: </label>
             <select th:field="*{category.idCategory}">
                 <option th:each="item : ${category}"
                         th:value="${item.idCategory}" th:text="${item.nameCategory}"></option>

@@ -2,6 +2,7 @@ package com.codegym.service.impl;
 
 import com.codegym.model.Customer;
 import com.codegym.service.ICustomerService;
+import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.HashMap;
