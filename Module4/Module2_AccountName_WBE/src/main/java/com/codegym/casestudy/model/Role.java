@@ -1,7 +1,15 @@
 package com.codegym.casestudy.model;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
 public class Role {
+
+    @Id
     private int roleId;
+
+    
     private String roleName;
 
     public Role(int roleId, String roleName) {

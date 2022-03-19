@@ -1,6 +1,8 @@
 package com.codegym.casestudy.model;
-
+import javax.persistence.*;
+@Entity
 public class ContractDetail {
+    @Id
     private int contractDetailId;
     private int contractId;
     private int contractServiceId;

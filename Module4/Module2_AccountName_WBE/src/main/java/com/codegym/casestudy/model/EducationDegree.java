@@ -1,6 +1,9 @@
 package com.codegym.casestudy.model;
-
+import javax.persistence.*;
+@Entity
 public class EducationDegree {
+
+    @Id
     private int educationDegreeId;
     private String educationDegreeName;
 

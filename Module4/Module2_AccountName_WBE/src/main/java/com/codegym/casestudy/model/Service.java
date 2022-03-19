@@ -1,6 +1,11 @@
 package com.codegym.casestudy.model;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
 public class Service {
+    @Id
     private int serviceId;
     private String serviceCode;
     private String serviceName;

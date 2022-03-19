@@ -1,6 +1,8 @@
 package com.codegym.casestudy.model;
-
+import javax.persistence.*;
+@Entity
 public class CustomerType {
+    @Id
     private int customerTypeId;
     private String customerTypeName;
 

@@ -1,6 +1,10 @@
 package com.codegym.casestudy.model;
 
+import javax.persistence.*;
+
+@Entity
 public class AttachService {
+    @Id
     private int attachServiceId;
     private String attachServiceName;
     private double attachServiceCost;

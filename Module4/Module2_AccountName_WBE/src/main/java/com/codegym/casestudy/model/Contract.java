@@ -1,6 +1,12 @@
 package com.codegym.casestudy.model;
 
+
+import javax.persistence.*;
+
+@Entity
 public class Contract {
+    @Id
+
     private int contractId;
     private String contractStartDate;
     private String contractEndDate;
