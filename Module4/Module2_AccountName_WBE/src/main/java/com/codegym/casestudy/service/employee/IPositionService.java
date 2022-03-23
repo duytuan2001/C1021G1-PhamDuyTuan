@@ -1,9 +1,15 @@
 package com.codegym.casestudy.service.employee;
 
-import model.Position;
+import com.codegym.casestudy.model.employee.Position;
 
 import java.util.List;
 
 public interface IPositionService {
-    List<Position> findAll();
+    List<Position> fillAll();
+
+//    Position findById(int id);
+//
+//    void save(Position position);
+//
+//    void remove(int id);
 }

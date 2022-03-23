@@ -1,9 +1,15 @@
 package com.codegym.casestudy.service.employee;
 
-import model.Division;
+import com.codegym.casestudy.model.employee.Division;
 
 import java.util.List;
 
 public interface IDivisionService {
-    List<Division> findAll();
+    List<Division> fillAll();
+
+//    Division findById(int id);
+//
+//    void save(Division division);
+//
+//    void remove(int id);
 }

@@ -5,6 +5,7 @@ import javax.persistence.*;
 @Entity
 public class AttachService {
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int attachServiceId;
     private String attachServiceName;
     private double attachServiceCost;

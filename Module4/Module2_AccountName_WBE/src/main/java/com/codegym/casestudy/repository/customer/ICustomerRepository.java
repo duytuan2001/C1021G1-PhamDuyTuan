@@ -1,20 +1,10 @@
 package com.codegym.casestudy.repository.customer;
 
-import model.Customer;
+import com.codegym.casestudy.model.customer.Customer;
 
-import java.util.List;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
 
-public interface ICustomerRepository {
-
-    List<Customer> getAllCustomer();
-
-    void createCustomer(Customer customer);
-
-    Customer findById(int id);
-
-    void updateCustomer(int id, Customer customer);
-
-    void deleteCustomer(int id);
-
-    List<Customer> searchCustomer(String name);
+@Repository
+public interface ICustomerRepository extends JpaRepository<Customer, Integer> {
 }

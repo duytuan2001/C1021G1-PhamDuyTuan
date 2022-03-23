@@ -3,6 +3,7 @@ import javax.persistence.*;
 @Entity
 public class ContractDetail {
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int contractDetailId;
     private int contractId;
     private int contractServiceId;

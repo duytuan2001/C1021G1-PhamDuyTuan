@@ -1,95 +1,237 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
-    <title>Home</title>
-    <link rel="stylesheet" href="/assert/bootstrap413/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/assert/datatables/css/dataTables.bootstrap4.min.css">
-    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.11.5/datatables.min.css"/>
-
+    <meta charset="UTF-8">
+    <title>Furama Resort</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <!--Get your own code at fontawesome.com-->
+    <link rel = "icon" href =
+            "https://furamavietnam.com/wp-content/uploads/2018/08/logo@2x.png"
+          type = "image/x-icon">
 </head>
-<style>
-    .top-border{
-        border: solid black;
-        height: 150px;
-    }
-    .logo {
-        margin-left: 40px;
-    }
-    .name{
-        margin-right: 40px;
-    }
-    .menu, .section, .footer {
-        border: solid;
-        border-top: none;
-    }
-    .child {
-        border-right: solid;
-    }
-    .section {
-        height: 60%;
-    }
-    .search input {
-        width: 100%;
-        border-radius: 20px;
-    }
-
-</style>
 <body>
-<div>
-    <div class="d-flex justify-content-between align-items-center top-border">
-        <div class="logo">
-            <img src="https://phuongviethcm.com/wp-content/uploads/2019/07/FURAMA.png" width="100px" height="100px">
+<div class="container-fluid" style="background: darkcyan">
+    <div class="row">
+        <div class="col-sm-4">
+            <table>
+                <tr>
+                    <td><img src="https://phuongviethcm.com/wp-content/uploads/2019/07/FURAMA.png" alt="" width="100px" height="100px"></td>
+                    <td><a class="nav-link" href="#"><h5 style="color: white">FURAMARESORT</h5></a></td>
+                </tr>
+            </table>
+
         </div>
-        <div class="name">
-            Phạm Duy Tuân
+        <div class="col-sm-4">
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link" th:href="@{/employee}"><h5 style="color: white">Employee</h5></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" th:href="@{/customer}"><h5 style="color: white">Customer</h5></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><h5 style="color: white">Service</h5></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="#"><h5 style="color: white">Contract</h5></a>
+                </li>
+            </ul>
         </div>
-    </div>
-    <div class="row d-flex justify-content-between menu mx-0 py-2">
-        <div class="col-9">
-            <div class="row d-flex justify-content-center">
-                <div class="col-2">
-                    <a href="">Home</a>
-                </div>
-                <div class="col-2">
-                    <a href="/employee">Employee</a>
-                </div>
-                <div class="col-2">
-                    <a href="/customer">Customer</a>
-                </div>
-                <div class="col-2">
-                    <a href="/service">Service</a>
-                </div>
-                <div class="col-2">
-                    <a href="">Contract</a>
-                </div>
-            </div>
+        <div class="col-sm-3">
         </div>
-        <div class="col-3 search">
-            <input class="pl-3" type="text" placeholder="search">
-        </div>
-    </div>
-    <div class="row d-flex section mx-0">
-        <div class="col-2 d-flex flex-column child px-2">
-            <p>Item One</p>
-            <p>Item Two</p>
-            <p>Item Three</p>
-        </div>
-        <div class="col-10 d-flex justify-content-center align-items-center">
-            <p>Body...</p>
-        </div>
-    </div>
-    <div class="row mx-0 footer">
-        <div class="col-12 d-flex justify-content-center align-items-center py-2">
-            <p class="mb-0">Footer...</p>
+        <div class="col-sm-1">
+            <table>
+                <tr>
+                    <td> <h6><a class="text-white " href="/logout">Đăng xuất</a></h6></td>
+                </tr>
+            </table>
+            <td><i class='fab fa-facebook' style='font-size:28px ; color: darkblue'></i></td>
+            <td><i class='fab fa-instagram' style='font-size:28px ; color: pink'></i></td>
         </div>
     </div>
 </div>
-<script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.11.5/datatables.min.js"></script>
-<script src="/assert/jquery/jquery-3.5.1.min.js"></script>
-<script src="/assert/bootstrap413/js/popper.min.js"></script>
-<script src="/assert/datatables/js/jquery.dataTables.min.js"></script>
-<script src="/assert/datatables/js/dataTables.bootstrap4.min.js"></script>
-<script src="/assert/bootstrap413/js/bootstrap.min.js"></script>
-<script src="/assert/bootstrap413/js/bootstrap.bundle.js"></script>
+
+
+<div class="container-fluid">
+    <div class="row">
+
+        <!-- Carousel -->
+        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+            </div>
+
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://khachsandanang.com.vn/data/images/FURAMA%2020%20NAM.jpg" alt="Los Angeles" class="d-block" style="width:100%">
+                    <div class="carousel-caption">
+                        <h3>Los Angeles</h3>
+                        <p>We had such a great time in LA!</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://khachsandanang.com.vn/data/images/FURAMA%2020%20NAM.jpg" alt="Chicago" class="d-block" style="width:100%">
+                    <div class="carousel-caption">
+                        <h3>Chicago</h3>
+                        <p>Thank you, Chicago!</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://khachsandanang.com.vn/data/images/FURAMA%2020%20NAM.jpg" alt="New York" class="d-block" style="width:100%">
+                    <div class="carousel-caption">
+                        <h3>FuramaResort</h3>
+                        <p>We love the Big Apple!</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-3">
+            <p style="font-weight: bold;font-size: 150% ; color: burlywood">
+                KHU NGHỈ DƯỠNG ĐẲNG CẤP THẾ GIỚI, FURAMA ĐÀ NẴNG, NỔI TIẾNG LÀ KHU NGHỈ DƯỠNG ẨM THỰC TẠI VIỆT NAM.
+            </p>
+
+        </div>
+        <div class="col-sm-6">
+            <iframe width="600" height="350" src="https://www.youtube.com/embed/Pa8tN0u0Rr0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        </div>
+        <div class="col-sm-3">
+            <p>
+                Hướng ra bãi biển Đà Nẵng trải dài cát trắng, Furama Resort Đà Nẵng là cửa ngõ đến với 3 di sản
+                văn hoá thế giới: Hội An (20 phút), Mỹ Sơn (90 phút)
+                và Huế (2 tiếng. 196 phòng hạng sang cùng với 70 căn biệt
+                thự từ hai đến bốn phòng ngủ có hồ bơi riêng đều được trang
+                trí trang nhã, theo phong cách thiết kế truyền thống của Việt Nam
+                và kiến trúc thuộc địa của Pháp, biến Furama thành khu nghỉ dưỡng danh
+                giá nhất tại Việt Nam – vinh dự được đón tiếp nhiều người nổi tiếng, giới hoàng gia,
+                chính khách, ngôi sao điện ảnh và các nhà lãnh đạo kinh doanh quốc tế.
+            </p>
+        </div>
+
+    </div>
+</div>
+
+
+<div class="container">
+
+    <div class="row">
+        <h3 style="text-align: center ; color:burlywood ;">CÁC LOẠI PHÒNG</h3>
+        <div class="col-sm-3">
+        </div>
+        <div class="col-sm-5">
+            <p style="font-weight: bold">
+                Khu nghỉ dưỡng có 196 phòng được thiết kế theo phong cách truyền thống Việt Nam kết hợp với phong cách Pháp, 2 tòa nhà 4 tầng có hướng
+                nhìn ra biển, nhìn ra hồ bơi trong xanh và những khu vườn nhiệt đới xanh tươi mát.
+                Ngoài ra, khu nghỉ dưỡng Furama còn cung cấp các liệu pháp spa, phòng xông hơi ướt,
+                phòng xông hơi khô, dịch vụ mát-xa cạnh hồ bơi,
+                các dịch vụ thể thao dưới nước và các lớp tập yoga và Thái Cực Quyền trên bãi biển.
+            </p>
+        </div>
+
+        <div class="col-sm-3">
+        </div>
+
+        <a style="text-align: center ; color: darkcyan" th:href="@{/view}">VIEW ALL ROOMS</a>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+<!--<div class="container">-->
+<!--    <div class="row">-->
+<!--        <div id="myCarousel" class="carousel slide" data-ride="carousel">-->
+<!--            &lt;!&ndash; Indicators &ndash;&gt;-->
+<!--            <ol class="carousel-indicators">-->
+<!--                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>-->
+<!--                <li data-target="#myCarousel" data-slide-to="1"></li>-->
+<!--                <li data-target="#myCarousel" data-slide-to="2"></li>-->
+<!--                <li data-target="#myCarousel" data-slide-to="3"></li>-->
+<!--                <li data-target="#myCarousel" data-slide-to="4"></li>-->
+<!--                <li data-target="#myCarousel" data-slide-to="5"></li>-->
+<!--                <li data-target="#myCarousel" data-slide-to="6"></li>-->
+<!--                <li data-target="#myCarousel" data-slide-to="7"></li>-->
+<!--            </ol>-->
+
+<!--            &lt;!&ndash; Wrapper for slides &ndash;&gt;-->
+<!--            <div class="carousel-inner" role="listbox">-->
+<!--                <div class="item active">-->
+<!--                    <div class="slide-wrapper col-sm-3">-->
+<!--                        <a class="slide-link" href="#" tabindex="0"><img class="slide-image" src="
+http://loremflickr.com/400/400/dog
+" alt=""></a>-->
+<!--                    </div>-->
+<!--                    <div class="slide-wrapper col-sm-3">-->
+<!--                        <a class="slide-link" href="#" tabindex="0"><img class="slide-image" src="
+http://loremflickr.com/400/400/dog
+" alt=""></a>-->
+<!--                    </div>-->
+<!--                    <div class="slide-wrapper col-sm-3">-->
+<!--                        <a class="slide-link" href="#" tabindex="0"><img class="slide-image" src="
+http://loremflickr.com/400/400/dog
+" alt=""></a>-->
+<!--                    </div>-->
+<!--                    <div class="slide-wrapper col-sm-3">-->
+<!--                        <a class="slide-link" href="#" tabindex="0"><img class="slide-image" src="
+http://loremflickr.com/400/400/dog
+" alt=""></a>-->
+<!--                    </div>-->
+<!--                </div>,yhjkc-->
+
+<!--            &lt;!&ndash; Left and right controls &ndash;&gt;-->
+<!--            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">-->
+<!--                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>-->
+<!--                <span class="sr-only">Previous</span>-->
+<!--            </a>-->
+<!--            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">-->
+<!--                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>-->
+<!--                <span class="sr-only">Next</span>-->
+<!--            </a>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</div>-->
+<div class="container-fluid">
+    <div>
+        <img src="/static/Screenshot 2022-03-20 220649.png" alt="Ảnh mlem mlem" width="100%" height="90%">
+    </div>
+
+
+</div>
+
+
+
+
+
+
+
+
+<script src="
+https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js
+" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script src="
+https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js
+" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="
+https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js
+" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -1,11 +1,9 @@
 package com.codegym.casestudy.service.customer;
 
-import model.CustomerType;
+import com.codegym.casestudy.model.customer.CustomerType;
 
 import java.util.List;
 
 public interface ICustomerTypeService {
-
-    List<CustomerType> getAllCustomerType();
-
+    List<CustomerType> fillAll();
 }

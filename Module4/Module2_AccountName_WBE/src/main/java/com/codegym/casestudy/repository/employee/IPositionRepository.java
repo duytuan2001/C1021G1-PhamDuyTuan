@@ -1,9 +1,7 @@
 package com.codegym.casestudy.repository.employee;
 
-import model.Position;
+import com.codegym.casestudy.model.employee.Position;
+import org.springframework.data.jpa.repository.JpaRepository;
 
-import java.util.List;
-
-public interface IPositionRepository {
-    List<Position> findAll();
+public interface IPositionRepository extends JpaRepository<Position, Integer> {
 }

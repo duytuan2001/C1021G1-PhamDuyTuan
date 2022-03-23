@@ -6,7 +6,7 @@ import javax.persistence.*;
 @Entity
 public class Contract {
     @Id
-
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int contractId;
     private String contractStartDate;
     private String contractEndDate;

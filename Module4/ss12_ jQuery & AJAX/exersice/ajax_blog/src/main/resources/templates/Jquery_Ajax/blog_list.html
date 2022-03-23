@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+
+    <input id="value-search" type="text" >
+    <button id="bttn-search" type="button" >Search</button>
+
+<table >
+    <thead>
+    <tr>
+        <th>Id</th>
+        <th>Name Blog</th>
+        <th>Blog Content</th>
+        <th>Date Create</th>
+        <th>Name Category</th>
+    </tr>
+    </thead>
+    <tbody class="table">
+    </tbody>
+</table>
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="jquery-3.5.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+
+<script>
+    /*Run*/
+    $(document).ready(function () {
+        /*Display List*/
+        $.ajax({
+            url: "http://localhost:8080/api/blog/v1",
+            type: "GET",
+            dataType: "json",
+            success: function (data) {
+                // console.log(data)
+                let tr = []
+                for (let i = 0; i < data.length; i++) {
+                    tr.push("<tr>");
+                    tr.push("<td>" + data[i].id + "</td>");
+                    tr.push("<td>" + data[i].nameBlog + "</td>");
+                    tr.push("<td>" + data[i].starDate + "</td>");
+                    tr.push("<td>" + data[i].content + "</td>");
+                    tr.push("<td>" + data[i].category.nameCategory + "</td>");
+                    tr.push("</tr>");
+                }
+                $("table").append($(tr.join("")));
+            }
+        })
+
+
+        /*Display Search*/
+        $("#bttn-search").click(function () {
+            let name = $("#value-search").val()
+            if(name !=null) {
+                $.ajax({
+                    url: "http://localhost:8080/api/blog/v1/search?search=" + name,
+                    type: "GET",
+                    dataType: "json",
+                    success: function (data) {
+                        $(".table").empty()
+                        console.log(data)
+                        let trContent = []
+                        for (let i = 0; i < data.length; i++) {
+                            trContent.push("<tr>");
+                            trContent.push("<td>" + data[i].id + "</td>");
+                            trContent.push("<td>" + data[i].nameBlog + "</td>");
+                            trContent.push("<td>" + data[i].starDate + "</td>");
+                            trContent.push("<td>" + data[i].content + "</td>");
+                            trContent.push("<td>" + data[i].category.nameCategory + "</td>");
+                            trContent.push("</tr>");
+                        }
+                        $(".table").append(trContent.join(""));
+                    }
+
+                })
+            }
+        })
+    });
+</script>
+</html>

@@ -1,18 +1,14 @@
 package com.codegym.casestudy.repository.employee;
 
-import model.Employee;
+import com.codegym.casestudy.model.employee.Employee;
 
-import java.util.List;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
 
-public interface IEmployeeRepository {
 
-    List<Employee> getAllEmployee();
+public interface IEmployeeRepository extends JpaRepository<Employee, Integer> {
+    Page<Employee> findByEmployeeNameContaining(String name,Pageable pageable);
 
-    void createEmployee(Employee employee);
-
-    Employee findById(int id);
-
-    void deleteEmployee(Employee employee);
-
-    void updateEmployee(int id);
 }

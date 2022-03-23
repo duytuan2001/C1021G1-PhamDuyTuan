@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head th:replace="/layout :: head">
+
+</head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<style>
+    p, a, form {
+        display: inline;
+        margin-right: 15px;
+    }
+</style>
+<body>
+<h1 style="text-align: center">Customer list</h1>
+<p>
+    <a class="btn btn-warning" href="http://localhost:8080/">Back to Home</a>
+</p>
+
+<p>
+    <!-- Button Delete modal -->
+    <a class="btn btn-success" th:href="@{/customer/create}">Add new customer</a>
+</p>
+
+<form style="margin-right: 40%">
+    <input type="hidden" th:if="${sort.equals('true')}" name="sort" value="time&sbquo;asc">
+    <input type="hidden" th:if="${sort.equals('false')}" name="sort" value="time&sbquo;desc">
+    <input type="submit" th:if="${sort.equals('true')}" value="ASC">
+    <input type="submit" th:if="${sort.equals('false')}" value="DESC">
+</form>
+
+<form>
+    <input style="width: 30%" type="text" name="search">
+    <input type="submit" value="search">
+</form>
+
+<table border="1" id="blog" class="table table-striped table-bordered" style="width:100%">
+    <thead style="background: #4CAF50">
+    <tr>
+        <td scope="col">Customer ID:</td>
+        <td scope="col">Customer Name:</td>
+        <td scope="col">Customer Birthday:</td>
+        <td scope="col">Customer Gender:</td>
+        <td scope="col">Customer IdCard:</td>
+        <td scope="col">Customer Phone:</td>
+        <td scope="col">Customer Email:</td>
+        <td scope="col">Customer Address:</td>
+
+        <td scope="col">Customer Type Name:</td>
+
+        <td scope="col">edit</td>
+        <td>Delete</td>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="customers : ${customerList}">
+        <td th:text="${customers.customerId}"></td>
+        <td th:text="${customers.customerName}"></td>
+        <td th:text="${customers.customerBirthday}"></td>
+        <td th:text="${customers.customerGender ? 'Nam':'Nữ'}"></td>
+        <td th:text="${customers.customerIdCard}"></td>
+        <td th:text="${customers.customerPhone}"></td>
+        <td th:text="${customers.customerEmail}"></td>
+        <td th:text="${customers.customerAddress}"></td>
+
+        <td th:text="${customers.customerType.customerTypeName}"></td>
+
+        <td>
+            <!-- Button Edit modal -->
+            <a th:href="@{/customer/{id}/edit(id=${customers.getCustomerId()})}" class="btn btn-info">Edit</a>
+        </td>
+        <td>
+            <!-- Button trigger modal -->
+            <button class="btn btn-danger" data-toggle="modal" th:href="@{/delete/__${customers.customerId}__}"
+                    th:data-parameter1="${customers.customerId}" th:data-parameter2="${customers.customerName}"
+                    onclick="deleteEmployee(this.getAttribute('data-parameter1'),this.getAttribute('data-parameter2'));">
+                Delete
+            </button>
+
+        </td>
+    </tr>
+    </tbody>
+</table>
+
+<footer th:replace="/layout :: footer"></footer>
+
+<div>
+    <a th:href="@{'/customer/list'(page = ${customerList.number - 1})}"
+       th:if="${customerList.hasPrevious()}">Previous</a>
+    <span th:text="${customerList.number + 1}"></span>
+    / <span th:text="${customerList.totalPages}"></span>
+    <a th:href="@{'/customer/list'(page = ${customerList.number + 1})}"
+       th:if="${customerList.hasNext()}">Next</a>
+</div>
+
+
+<div class="modal fade" id="modelId" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">DELETE BLOG</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>Bạn có muốn xóa <span style="color: red" id="name-blog"></span> không ? </p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">NO</button>
+                <button type="button" class="btn btn-primary" onclick="submitFormDelete()">YES</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<form hidden id="form-delete" method="post" th:action="@{/customer/delete}">
+    <input type="text" name="id" id="id-blog">
+</form>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+<script>
+    function deleteEmployee(id, name) {
+        document.getElementById("id-blog").value = id;
+        document.getElementById("name-blog").innerText = name;
+        $("#modelId").modal()
+    }
+
+    function submitFormDelete() {
+        document.getElementById("form-delete").submit();
+    }
+</script>
+
+</body>
+</html>
+

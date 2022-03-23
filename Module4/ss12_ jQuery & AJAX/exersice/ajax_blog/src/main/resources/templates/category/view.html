@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:replace="/layout :: head"></head>
+<body>
+<h3>View Category</h3>
+<p>
+    <a th:href="@{/category/list}">
+        Back to category list
+    </a>
+</p>
+<div id="form">
+    <div>
+        <label>Id Category: </label>
+        <label th:text="${category.idCategory}"/>
+    </div>
+    <div>
+        <label>Name Category:</label>
+        <label th:text="${category.nameCategory}"/>
+    </div>
+</div>
+<footer th:replace="/layout :: footer"></footer>
+</body>
+</html>

@@ -1,6 +1,12 @@
 package com.codegym.casestudy.model;
 
+import javax.persistence.*;
+
+@Entity
 public class RentType {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int rentTypeId;
     private String rentTypeName;
     private double rentTypeCost;

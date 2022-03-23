@@ -1,50 +1,47 @@
 package com.codegym.casestudy.service.customer.impl;
 
-import model.Customer;
-import repository.customer.ICustomerRepository;
-import repository.customer.impl.CustomerRepositoryImpl;
-import service.customer.ICustomerService;
+import com.codegym.casestudy.model.customer.Customer;
+import com.codegym.casestudy.repository.customer.ICustomerRepository;
+import com.codegym.casestudy.service.customer.ICustomerService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
-
+@Service
 public class CustomerServiceImpl implements ICustomerService {
 
-    private static ICustomerRepository iCustomerRepository = new CustomerRepositoryImpl();
+    @Autowired
+    ICustomerRepository repository;
 
     @Override
-    public List<Customer> getAllCustomer() {
-        List<Customer> customerList = iCustomerRepository.getAllCustomer();
-        if (customerList.size() == 0) {
-            return null;
-        }
-        return iCustomerRepository.getAllCustomer();
-    }
-
-    @Override
-    public void createCustomer(Customer customer) {
-        iCustomerRepository.createCustomer(customer);
+    public Page<Customer> fillAll(Pageable pageable) {
+        return repository.findAll(pageable);
     }
 
     @Override
     public Customer findById(int id) {
-        return iCustomerRepository.findById(id);
+        return repository.findById(id).orElse(null);
     }
 
     @Override
-    public void updateCustomer(int id, Customer customer ) {
-        iCustomerRepository.updateCustomer(id, customer);
+    public void save(Customer customer) {
+        repository.save(customer);
     }
 
     @Override
-    public void deleteCustomer(int id) {
-        iCustomerRepository.deleteCustomer(id);
+    public void deleteById(Integer id) {
+        repository.deleteById(id);
     }
-
 
     @Override
-    public List<Customer> searchCustomer(String name) {
-        return iCustomerRepository.searchCustomer(name);
+    public Page<Customer> searchCustomer(String name, Pageable pageable) {
+        return null;
     }
 
-
+    @Override
+    public List<Customer> fillAll() {
+        return null;
+    }
 }

@@ -1,9 +1,10 @@
 package com.codegym.casestudy.repository.customer;
 
-import model.CustomerType;
+import com.codegym.casestudy.model.customer.Customer;
+import com.codegym.casestudy.model.customer.CustomerType;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
 
-import java.util.List;
-
-public interface ICustomerTypeRepository {
-    List<CustomerType> getAllCustomerType();
+@Repository
+public interface ICustomerTypeRepository extends JpaRepository<CustomerType, Integer> {
 }

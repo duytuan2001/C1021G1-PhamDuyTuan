@@ -1,20 +1,25 @@
 package com.codegym.casestudy.service.customer;
 
-import model.Customer;
+import com.codegym.casestudy.model.customer.Customer;
+import com.codegym.casestudy.model.employee.Employee;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 
 import java.util.List;
 
 public interface ICustomerService {
-
-    List<Customer> getAllCustomer();
-
-    void createCustomer(Customer customer);
+    Page<Customer> fillAll(Pageable pageable);
 
     Customer findById(int id);
 
-    void updateCustomer(int id, Customer customer);
+    void save(Customer customer);
 
-    void deleteCustomer(int id);
+    void deleteById(Integer id);
 
-    List<Customer> searchCustomer(String name);
+    Page<Customer> searchCustomer(String name, Pageable pageable);
+
+    List<Customer> fillAll();
+
+
+
 }

@@ -3,6 +3,7 @@ import javax.persistence.*;
 @Entity
 public class ServiceType {
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int serviceTypeId;
     private String serviceTypeName;
 

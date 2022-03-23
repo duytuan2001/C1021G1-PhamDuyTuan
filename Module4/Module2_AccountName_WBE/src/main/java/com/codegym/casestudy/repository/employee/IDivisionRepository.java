@@ -1,9 +1,7 @@
 package com.codegym.casestudy.repository.employee;
 
-import model.Division;
+import com.codegym.casestudy.model.employee.Division;
+import org.springframework.data.jpa.repository.JpaRepository;
 
-import java.util.List;
-
-public interface IDivisionRepository {
-    List<Division> findAll();
+public interface IDivisionRepository extends JpaRepository<Division, Integer> {
 }
